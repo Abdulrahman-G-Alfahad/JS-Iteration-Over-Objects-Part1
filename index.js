@@ -30,9 +30,9 @@ const object = {
 
 function hasKey(object, key) {
   if (object[key]) {
-    return console.log("True");
+    return true;
   } else {
-    return console.log("False");
+    return false;
   }
 }
 //hasKey(object,"age");
